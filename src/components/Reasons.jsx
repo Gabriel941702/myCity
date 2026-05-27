@@ -9,7 +9,7 @@ export default function Reasons() {
         <div className="reasons__row">
           <img
             className="reasons__media"
-            src="/images/landing-page/reasons-1.png"
+            src="/images/landing-page/reasons-1.webp"
             alt="Argentine asado / steak"
           />
           <div className="reasons__copy">
@@ -33,7 +33,7 @@ export default function Reasons() {
           </div>
           <img
             className="reasons__media"
-            src="/images/landing-page/reasons-2.png"
+            src="/images/landing-page/reasons-2.webp"
             alt="Colorful Caminito buildings in La Boca"
           />
         </div>
