@@ -1,0 +1,12 @@
+.hero {
+  padding: 0;
+  box-shadow: var(--shadow-section);
+}
+
+.hero__image {
+  width: 100%;
+  height: clamp(260px, 42vw, 520px);
+  background-image: url("/images/landing-page/hero.png");
+  background-size: cover;
+  background-position: center;
+}
