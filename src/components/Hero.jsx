@@ -3,10 +3,10 @@ import "./Hero.css";
 export default function Hero() {
   return (
     <section className="hero" aria-label="Buenos Aires hero">
-      <div
+      <img
         className="hero__image"
-        role="img"
-        aria-label="Argentine flag in front of Casa Rosada, Buenos Aires"
+        src="/images/landing-page/hero.webp"
+        alt="Argentine flag in front of Casa Rosada, Buenos Aires"
       />
     </section>
   );

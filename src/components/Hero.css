@@ -7,32 +7,17 @@
 }
 
 .hero__image {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1442px;
-  max-width: none;
+  display: block;
+  width: 100%;
   height: 495px;
-  margin-left: -2px;
-  background-image: url("/images/landing-page/hero.webp");
-  background-size: cover;
-  background-position: center;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-@media (max-width: 1442px) {
-  .hero__image {
-    width: 100%;
-    margin-left: 0;
-    transform: translateX(-50%);
-  }
-}
-
 @media (max-width: 720px) {
-  .hero {
-    height: 320px;
-  }
+  .hero,
   .hero__image {
     height: 320px;
   }
