@@ -1,8 +1,8 @@
 :root {
   --color-bg: #ffffff;
-  --color-text: #111111;
-  --color-muted: #555555;
-  --color-accent: #b3d9f2;
+  --color-text: #000000;
+  --color-muted: #37474F;
+  --color-accent: #BBDEFB;
   --color-accent-soft: #cfe6f5;
   --color-border: #e7e7e7;
   --max-width: 1100px;
@@ -54,12 +54,13 @@ button {
 }
 
 .section-title {
-  text-align: center;
   font-family: var(--font-display);
-  font-size: clamp(2.5rem, 3.4vw, 3rem);
+  font-size: 64px;
+  line-height: 92px;
   font-weight: 700;
-  margin: 0 0 32px;
-  letter-spacing: -0.01em;
+  color: #000000;
+  margin: 0;
+  letter-spacing: 0;
 }
 
 .site-header,

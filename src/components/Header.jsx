@@ -4,15 +4,24 @@ import "./Header.css";
 export default function Header() {
   return (
     <header className="site-header">
-      <div className="container site-header__inner">
+      <div className="site-header__inner">
         <nav className="site-nav" aria-label="Primary">
-          <Link to="/coming-soon" className="site-nav__link">
+          <Link
+            to="/coming-soon"
+            className="site-nav__link site-nav__link--what-to-do"
+          >
             What to do?
           </Link>
-          <Link to="/coming-soon" className="site-nav__link">
+          <Link
+            to="/coming-soon"
+            className="site-nav__link site-nav__link--information"
+          >
             Information
           </Link>
-          <Link to="/coming-soon" className="site-nav__link">
+          <Link
+            to="/coming-soon"
+            className="site-nav__link site-nav__link--contact"
+          >
             Contact
           </Link>
         </nav>
